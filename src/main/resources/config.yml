@@ -1,0 +1,33 @@
+tiers:
+  small:
+    material: LEATHER_CHESTPLATE
+    custom-model-data: 1001
+    name: "<gray>小背包"
+    lore:
+      - "<dark_gray>容量：1 行"
+      - "<gray>装备在胸甲栏后生效"
+  medium:
+    material: CHAINMAIL_CHESTPLATE
+    custom-model-data: 1002
+    name: "<gray>中背包"
+    lore:
+      - "<dark_gray>容量：2 行"
+      - "<gray>装备在胸甲栏后生效"
+  large:
+    material: IRON_CHESTPLATE
+    custom-model-data: 1003
+    name: "<gray>大背包"
+    lore:
+      - "<dark_gray>容量：3 行"
+      - "<gray>装备在胸甲栏后生效"
+
+placeholder:
+  material: GRAY_STAINED_GLASS_PANE
+  name: "<dark_gray>未解锁"
+  lore:
+    - "<gray>装备更大的背包以解锁"
+
+messages:
+  locked-slot: "<red>该物品栏尚未解锁。"
+  capacity-shrunk: "<yellow>背包容量变小，超出的物品已掉落在脚下。"
+  no-space: "<red>背包空间不足。"

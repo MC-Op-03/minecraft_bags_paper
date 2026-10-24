@@ -1,0 +1,15 @@
+name: Bag
+version: '${version}'
+main: com.example.bag.BagPlugin
+description: Restricts player storage rows based on the equipped backpack.
+author: bag
+api-version: '26.3'
+commands:
+  bag:
+    description: Bag administration.
+    usage: /bag <give|info|reload>
+    permission: bag.admin
+permissions:
+  bag.admin:
+    description: Allows using bag administration commands.
+    default: op

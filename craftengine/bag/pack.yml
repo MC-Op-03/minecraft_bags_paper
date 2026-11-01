@@ -1,0 +1,5 @@
+author: bag
+description: 'Bag items, 3D armor and recipes'
+version: '1.0'
+namespace: bag
+enable: true

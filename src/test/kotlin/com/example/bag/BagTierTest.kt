@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertNull
 import org.junit.jupiter.api.Test
 
+/**
+ * 验证背包等级 ID 与行数的稳定映射。
+ *
+ * 这些值是持久化协议的一部分：`bag:tier` 和 `config.yml` 都依赖它们。
+ */
 class BagTierTest {
     @Test
     fun `tiers map to the expected storage rows`() {

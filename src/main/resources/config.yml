@@ -1,4 +1,9 @@
+# bag 插件配置。
+# 所有文本均使用 MiniMessage；修改后执行 /bag reload。
+# 三个 tier 必须全部存在；行数固定在代码中（1/2/3），不从本文件读取。
+
 tiers:
+  # 无 CraftEngine 时的回退物品外观。CE 正常工作时物品外观由 CE pack 决定。
   small:
     material: LEATHER_CHESTPLATE
     custom-model-data: 1001
@@ -21,12 +26,29 @@ tiers:
       - "<dark_gray>容量：3 行"
       - "<gray>装备在胸甲栏后生效"
 
+# 锁定槽位的视觉占位物。识别依赖 PDC，不依赖这里的材质。
 placeholder:
   material: GRAY_STAINED_GLASS_PANE
   name: "<dark_gray>未解锁"
   lore:
     - "<gray>装备更大的背包以解锁"
 
+# 可选 CraftEngine 集成。CE 未安装时自动回退原版物品。
+# items 的值必须与 craftengine/bag/configuration/items.yml 中的物品 ID 一致。
+craftengine:
+  enabled: true
+  items:
+    small: bag:small_bag
+    medium: bag:medium_bag
+    large: bag:large_bag
+
+# 移速惩罚，使用 AttributeModifier Operation.ADD_SCALAR。
+# 允许范围：-1.0..0.0；默认 -15% / -30%。
+debuffs:
+  medium-speed: -0.15
+  large-speed: -0.30
+
+# 玩家提示。
 messages:
   locked-slot: "<red>该物品栏尚未解锁。"
   capacity-shrunk: "<yellow>背包容量变小，超出的物品已掉落在脚下。"

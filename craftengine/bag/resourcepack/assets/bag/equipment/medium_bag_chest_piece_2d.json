@@ -1,0 +1,12 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "bag:leather_backpack_2d",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      }
+    ]
+  }
+}

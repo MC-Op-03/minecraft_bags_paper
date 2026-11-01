@@ -1,0 +1,204 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_0",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_1",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_2",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_3",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_4",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_5",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_6",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_7",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_8",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_9",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_10",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_11",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_12",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_13",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_14",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_15",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_16",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_17",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_18",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_19",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_20",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_21",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_22",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_23",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_24",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_25",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_26",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_27",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_28",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_29",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_30",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:small_bag_humanoid_chest_piece_31",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      },
+      {
+        "texture": "bag:leather_backpack_small",
+        "dyeable": {
+          "color_when_undyed": -1
+        }
+      }
+    ]
+  }
+}

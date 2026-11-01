@@ -5,6 +5,11 @@ import org.junit.jupiter.api.Assertions.assertEquals
 import org.junit.jupiter.api.Assertions.assertTrue
 import org.junit.jupiter.api.Test
 
+/**
+ * 验证降级/卸下时受影响槽位的边界。
+ *
+ * 这些范围直接决定哪些物品会被丢弃，必须和 StorageLayout 的解锁公式成对维护。
+ */
 class DropRangeTest {
     @Test
     fun `removing a large backpack drops all storage rows`() {
@@ -12,13 +17,18 @@ class DropRangeTest {
     }
 
     @Test
-    fun `downgrading from large to small drops the upper two rows`() {
-        assertEquals(18..35, StorageLayout.newlyLockedSlots(3, 1))
+    fun `downgrading from large to small drops the bottom two rows`() {
+        assertEquals(9..26, StorageLayout.newlyLockedSlots(3, 1))
     }
 
     @Test
-    fun `downgrading from large to medium drops the top row`() {
-        assertEquals(27..35, StorageLayout.newlyLockedSlots(3, 2))
+    fun `downgrading from large to medium drops the bottom row`() {
+        assertEquals(9..17, StorageLayout.newlyLockedSlots(3, 2))
+    }
+
+    @Test
+    fun `downgrading from small to none drops the top row`() {
+        assertEquals(27..35, StorageLayout.newlyLockedSlots(1, 0))
     }
 
     @Test

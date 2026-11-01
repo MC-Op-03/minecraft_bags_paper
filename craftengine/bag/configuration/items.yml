@@ -1,0 +1,67 @@
+# CE 物品定义：物品 ID、16×16 图标、3D equipment、移速/容量 Lore。
+# 物品必须与 config.yml 的 craftengine.items 和 recipes.yml 保持同一组 ID。
+items:
+  bag:small_bag:
+    material: leather_chestplate
+    data:
+      item_model: bag:small_bag
+      item_name: "<!i><gray>小背包"
+      lore:
+        - "<dark_gray>容量：1 行"
+        - "<gray>无移速惩罚"
+      equippable:
+        slot: chest
+        asset_id: bag:small_bag_chest_piece
+        swappable: true
+        equip_on_interact: true
+        damage_on_hurt: false
+        dispensable: false
+      unbreakable: true
+      components:
+        minecraft:max_stack_size: 1
+      remove_components:
+        - minecraft:attribute_modifiers
+
+  # 中背包：双肩包；移速惩罚由 Bag 插件添加，不在 CE attribute_modifiers 中重复配置。
+  bag:medium_bag:
+    material: leather_chestplate
+    data:
+      item_model: bag:medium_bag
+      item_name: "<!i><gray>中背包"
+      lore:
+        - "<dark_gray>容量：2 行"
+        - "<red>移速 -15%"
+      equippable:
+        slot: chest
+        asset_id: bag:medium_bag_chest_piece
+        swappable: true
+        equip_on_interact: true
+        damage_on_hurt: false
+        dispensable: false
+      unbreakable: true
+      components:
+        minecraft:max_stack_size: 1
+      remove_components:
+        - minecraft:attribute_modifiers
+
+  # 大背包：带有额外的容量与移速惩罚。
+  bag:large_bag:
+    material: leather_chestplate
+    data:
+      item_model: bag:large_bag
+      item_name: "<!i><gray>大背包"
+      lore:
+        - "<dark_gray>容量：3 行"
+        - "<red>移速 -30%"
+      equippable:
+        slot: chest
+        asset_id: bag:large_bag_chest_piece
+        swappable: true
+        equip_on_interact: true
+        damage_on_hurt: false
+        dispensable: false
+      unbreakable: true
+      components:
+        minecraft:max_stack_size: 1
+      remove_components:
+        - minecraft:attribute_modifiers

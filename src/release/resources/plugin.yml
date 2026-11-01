@@ -4,6 +4,9 @@ main: com.example.bag.BagPlugin
 description: Restricts player storage rows based on the equipped backpack.
 author: bag
 api-version: '26.3'
+# 自包含发布包已内置 Kotlin stdlib，因此不声明 libraries；CE 仍为可选依赖。
+softdepend:
+  - CraftEngine
 commands:
   bag:
     description: Bag administration.

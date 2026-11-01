@@ -4,6 +4,10 @@ main: com.example.bag.BagPlugin
 description: Restricts player storage rows based on the equipped backpack.
 author: bag
 api-version: '26.3'
+# CE 是可选的：softdepend 保证 CE 先加载，但 CE 不存在时插件仍可启动。
+softdepend:
+  - CraftEngine
+# 开发包通过 Paper 的 libraries 加载 Kotlin stdlib；自包含发布包不带此段。
 libraries:
   - org.jetbrains.kotlin:kotlin-stdlib:2.4.10
 commands:

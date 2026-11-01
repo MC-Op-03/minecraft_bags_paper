@@ -1,0 +1,44 @@
+# CE 工作台配方：8 皮革围绕中心物品。
+# 中心物品决定等级：箱子 -> 小包，小包 -> 中包，中包 -> 大包。
+recipes:
+  bag:small_bag_recipe:
+    type: shaped
+    category: equipment
+    pattern:
+      - "LLL"
+      - "LCL"
+      - "LLL"
+    ingredients:
+      L: minecraft:leather
+      C: minecraft:chest
+    result:
+      id: bag:small_bag
+      count: 1
+
+  bag:medium_bag_recipe:
+    type: shaped
+    category: equipment
+    pattern:
+      - "LLL"
+      - "LCL"
+      - "LLL"
+    ingredients:
+      L: minecraft:leather
+      C: bag:small_bag
+    result:
+      id: bag:medium_bag
+      count: 1
+
+  bag:large_bag_recipe:
+    type: shaped
+    category: equipment
+    pattern:
+      - "LLL"
+      - "LCL"
+      - "LLL"
+    ingredients:
+      L: minecraft:leather
+      C: bag:medium_bag
+    result:
+      id: bag:large_bag
+      count: 1
